@@ -1,8 +1,8 @@
 #!/bin/bash
 # Welcome Information
-# Edition : Stable Edition V1.0
-# Author  : ADAM SIJA
-# (C) Copyright 2021-2022 By ADAM SIJA
+# Edition : Stable Edition v4 / Ver3
+# Author  : WAHYU id
+# (C) Copyright 2022-2023 By Wahyu vpn
 # =========================================
 
 # // Exporting Language to UTF-8
@@ -132,7 +132,7 @@ clear;clear;clear
 
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo -e "             ${YELLOW}(${NC}${GREEN} STATUS SERVICE INFORMATION ${NC}${YELLOW})${NC}"
-echo -e "           OWNER : ${GREEN} BTR ${NC}${YELLOW}(${NC} ${GREEN} SC BY ANDY YUDA  ${NC}${YELLOW})${NC}"
+echo -e "           OWNER : ${GREEN} BTR ${NC}${YELLOW}(${NC} ${GREEN} SC BY Wahyu Store id  ${NC}${YELLOW})${NC}"
 echo -e "       © Copyright By ANDY TUNNEL ${YELLOW}(${NC} 2022-2023 ${YELLOW})${NC}"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo ""
