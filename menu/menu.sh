@@ -212,10 +212,11 @@ systemctl restart xray
 systemctl restart nginx
 echo -e "[ ${green}INFO${NC} ] All finished... " 
 }
-export sem=$( curl -s https://raw.githubusercontent.com/Fikripps/permission/main/versions)
-export pak=$( cat /home/.ver)
+#export sem=$( curl -s https://raw.githubusercontent.com/Fikripps/permission/main/versions)
+#export pak=$( cat /home/.ver)
 IPVPS=$(curl -s ipinfo.io/ip )
 clear
+figlet 'Wahyu store'
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
 echo -e "${BICyan} │                  ${BIWhite}${UWhite}Server Informations${NC}"
 echo -e "${BICyan} │"
@@ -251,7 +252,7 @@ case $opt in
 8) clear ; addhost ;;
 9) clear ; genssl ;;
 10) clear ; jam ;;
-6969) clear ; wget https://raw.githubusercontent.com/Fikripps/Ver3/main/update.sh && chmod +x update.sh && ./update.sh && rm -f /root/update.sh ;;
+6969) clear ; wget https://raw.githubusercontent.com/Wahy-u/Ver3/main/update.sh && chmod +x update.sh && ./update.sh && rm -f /root/update.sh ;;
 0) clear ; menu ;;
 x) exit ;;
 *) echo -e "" ; echo "Press any key to back exit" ; sleep 1 ; exit ;;
